@@ -166,10 +166,4 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-// Auto-open WhatsApp popup gently after 10 seconds if not already opened
-setTimeout(() => {
-  const p = document.getElementById('waPanel');
-  if (p && !p.classList.contains('open')) {
-    toggleWA();
-  }
-}, 10000);
+// Auto-open popup removed to comply with Google Ads and user experience policies
